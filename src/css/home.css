@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&family=Dancing+Script&family=Indie+Flower&family=Kalam:wght@300;400&family=Rancho&family=Satisfy&family=Zeyada&display=swap');
+
+
+body {
+    background-color: white;
+}
+
+header {
+    background-image: linear-gradient(to right, white, rgb(255, 250, 250), pink, rgb(231, 144, 159));
+    height: 110px;
+}
+
+.logo {
+    width: 130px;
+    display: inline-block;
+    position: fixed;
+    left: 4px;
+    
+}
+
+.home-title {
+    display: inline-block;
+    font-size: 70px;
+    vertical-align: top;
+    margin: 0;
+    font-family: 'Zeyada', cursive;
+}
