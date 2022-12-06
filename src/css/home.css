@@ -7,21 +7,77 @@ body {
 
 header {
     background-image: linear-gradient(to right, white, rgb(255, 250, 250), pink, rgb(231, 144, 159));
-    height: 110px;
+    height: 130px;
 }
 
 .logo {
     width: 130px;
     display: inline-block;
-    position: fixed;
-    left: 4px;
-    
 }
 
 .home-title {
     display: inline-block;
-    font-size: 70px;
     vertical-align: top;
-    margin: 0;
     font-family: 'Zeyada', cursive;
+    text-align: center;
+    width: 89%;
+    margin-bottom: 0;
+    margin-top: 3px;
+    vertical-align: top;
+    font-size: 80px;
+}
+
+.left-div {
+    display: inline-block;
+    width: 210px;
+    padding: 20px;
+}
+
+.butterflies {
+    display: inline-block;
+    width: 200px;
+    border-radius: 100px;
+    box-shadow: 15px 15px 10px grey;
+    margin-bottom: 60px;
+}
+
+.beachBabes {
+    display: inline-block;
+    width: 200px;
+    border-radius: 100px;
+    box-shadow: 15px 15px 10px grey;
+}
+
+.middle-div {
+    display: inline-block;
+    width: 400px;
+    vertical-align: top;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.main-img {
+    width: 400px;
+    margin-top: 20px;
+}
+
+.right-div {
+    display: inline-block;
+    width: 210px;
+    padding: 20px;
+}
+
+.pianoDate {
+    display: inline-block;
+    width: 200px;
+    border-radius: 100px;
+    box-shadow: 15px 15px 10px grey;
+    margin-bottom: 60px;
+}
+
+.greenIvy {
+    display: inline-block;
+    width: 200px;
+    border-radius: 100px;
+    box-shadow: 15px 15px 10px grey;
 }
