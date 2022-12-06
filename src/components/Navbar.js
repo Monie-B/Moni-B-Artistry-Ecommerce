@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import '../css/navbar.css';
 
 
@@ -9,7 +9,7 @@ export default function NavBar (props) {
         <div class="subnav">
             <button class="subnavbtn">About <i class="fa fa-caret-down"></i></button>
             <div class="subnav-content">
-            <a href="#company">Monica</a>
+            <a href="/AboutMe">Monica</a>
             <a href="#team">Sip and Paint</a>
             </div>
         </div> 

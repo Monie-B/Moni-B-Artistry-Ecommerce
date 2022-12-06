@@ -6,7 +6,7 @@ body {
   .navbar {
     overflow: hidden;
     background-color: #c592ca;
-    background-image: linear-gradient(to right, #c592ca, white);
+    background-image: linear-gradient(to right, #c592ca, rgb(254, 247, 255), white);
   }
   
   .navbar a {
@@ -35,7 +35,7 @@ body {
   }
   
   .navbar a:hover, .subnav:hover .subnavbtn {
-    background-color: rgb(156, 212, 124);
+    background-color: rgb(189, 243, 158);
   }
   
   .subnav-content {
@@ -45,6 +45,7 @@ body {
     background-color: rgb(117, 217, 241);
     width: 100%;
     z-index: 1;
+    opacity: 0.8;
   }
   
   .subnav-content a {

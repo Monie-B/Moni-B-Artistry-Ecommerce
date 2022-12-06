@@ -1,17 +1,13 @@
 import React from 'react';
 import '../css/home.css';
+import Header from '../components/Header';
 import NavBar from '../components/Navbar';
 
 
 const Home = () => {
   return (
     <>
-        <header>
-            <img src='IMG_4260.jpeg' alt='Moni B Artistry logo' className='logo'></img>
-            <h1 className='home-title'>
-                Moni B Artistry
-            </h1>
-        </header>
+        <Header />
         <NavBar />
             <div className='left-div'>
                 <img src='Butterflies.jpeg' alt='artwork of woman with butterflies emerging from her head' className='butterflies'></img>
