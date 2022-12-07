@@ -4,7 +4,11 @@ import Home from './pages/Home';
 import AboutMe from './pages/AboutMe';
 import Categories from './pages/Categories';
 import Contact from './pages/Contact';
-import NavBar from './components/Navbar';
+import SipAndPaint from './pages/SipAndPaint';
+import Originals from './pages/Originals';
+import CanvasPrints from './pages/CanvasPrints';
+import PosterPrints from './pages/PosterPrints';
+import PhotoPrints from './pages/PhotoPrints';
 
 
 function App() {
@@ -16,7 +20,11 @@ function App() {
           <Route path="/aboutme" element={<AboutMe />} />
           <Route path="/categories" element={<Categories />} />
           <Route path="/contact" element={<Contact />} />
-          {/* <Route path="/resume" element={<Resume />} /> */}
+          <Route path="/sipandpaint" element={<SipAndPaint />} />
+          <Route path="/originals" element={<Originals />} />
+          <Route path="/canvasprints" element={<CanvasPrints />} />
+          <Route path="/posterprints" element={<PosterPrints />} />
+          <Route path="/photoprints" element={<PhotoPrints />} />
         </Routes>
       </div>
     </>
