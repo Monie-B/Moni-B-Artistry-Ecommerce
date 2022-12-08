@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Atma&family=Dancing+Script&family=Delius+Swash+Caps&family=Kalam:wght@300;400&family=Rancho&family=Satisfy&display=swap');
 
+
+.first-block {
+    display: inline-block;
+}
+
 .moni {
     display: inline-block;
     width: 300px;
@@ -15,4 +20,9 @@
     margin-left: 100px;
     font-family: 'Delius Swash Caps', cursive;
     font-size: 30px;
+}
+
+.sip-pic {
+    width: 150px;
+    display: inline-block;
 }

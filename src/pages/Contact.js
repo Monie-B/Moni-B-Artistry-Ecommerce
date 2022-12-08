@@ -9,12 +9,15 @@ const Contact = () => {
     <>
       <Header />
       <NavBar />
-        <div className='c-title'>
+        <section className='c-title'>
           Got a Question? Contact Me!
-        </div>
-        <div>
-           
-        </div>
+        </section>
+        <section>
+           <form action='#email'>
+            <textarea type='text' placeholder='How can I help you?' name='email' required></textarea>
+            <button>Submit Form</button>
+           </form>
+        </section>
     </>
   )
 }

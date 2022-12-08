@@ -9,17 +9,20 @@ const AboutMe = () => {
     <>
       <Header />
       <NavBar />
-      <div>
+      <div className='first-block'>
         <img src='Moni.jpg' alt='Monica selfie' className='moni' />
+      </div>
         <div className='text-div'>
-            <h2>
+          <h2>
             Meet the Artist!
           </h2>
-          <p>
-            Hello and welcome to my website! I first started painting in 2018. I attended a Paint & Sip event and was hooked ever since!
-          </p>
+            <p>
+              Hello and welcome to my website! I first started painting in 2018. I attended a Paint & Sip event and was hooked ever since! After that, I went out and bought all of the supplies I would need to start painting on my own.
+            </p>
         </div>
-      </div>
+        <div>
+          <img src='Sipandpaint.jpg' alt='Monica attending a sip and paint and holding her first painting' className='sip-pic' />
+        </div>
     </>
   )
 }
