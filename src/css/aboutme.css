@@ -44,6 +44,30 @@
     margin: 8px 0 0 8px;
 }
 
+.artevent1 {
+    width: 400px;
+    height: 300px;
+}
+
+.artevent2 {
+    width: 400px;
+    height: 300px;
+    margin-left: 5%;
+}
+
+.animate {
+    position: relative;
+    animation: mymove 9s infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+    display: inline;
+}
+
+@keyframes mymove {
+    from {left: -240px;}
+    to {left: 240px;}
+  }
+
 .second-p {
     font-family: 'Farsan', cursive;
     font-size: 35px;

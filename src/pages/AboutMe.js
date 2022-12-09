@@ -24,6 +24,10 @@ const AboutMe = () => {
             </p>
           </div>
         </main>
+        <div className='animate'>
+          <img src='artevent1.jpg' alt='Monica surrounded by her artwork at her first art show.' className='artevent1'/>
+          <img src='artevent2.jpeg' alt='Monica surrounded by her artwork at her third art show.' className='artevent2'/>
+        </div>
         <div>
         <p className='second-p'>
              Monica's long-standing passion of being artistic and creative began as a child. But never really knowing how being an artist could make a suitable living, she pursued her creativity in other ways. As she got older, she conjoined her creativity and love of tasty goods in soap making. Her handmade natural soaps resembled pastries good enough to eat! Check out @bath_crafts on Instagram to see her previous work! Now Monica is back in the business of arts by selling her original artwork, canvas prints, photo prints, and instruction for paint parties.
