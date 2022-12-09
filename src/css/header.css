@@ -21,3 +21,27 @@
     vertical-align: top;
     font-size: 80px;
 }
+
+.mbalink:link {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+.mbalink:visited {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+.mbalink:hover {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+.mbalink:active {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+  }
