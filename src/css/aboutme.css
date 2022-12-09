@@ -1,5 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Atma&family=Dancing+Script&family=Delius+Swash+Caps&family=Kalam:wght@300;400&family=Rancho&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Atma&family=Dancing+Script&family=Delius+Swash+Caps&family=Farsan&family=Kalam:wght@300;400&family=Londrina+Shadow&family=Rancho&family=Satisfy&display=swap');
 
+
+.m-t-a {
+    font-family: 'Satisfy', cursive;
+    text-shadow: 0 0 25px #09b1cf;
+}
 
 .first-block {
     display: inline-block;
@@ -7,22 +12,40 @@
 
 .moni {
     display: inline-block;
-    width: 300px;
+    width: 30%;
     border-radius: 150px;
     box-shadow: 0 0 90px #09b1cf;
-    margin-top: 60px;
+    margin-top: 90px;
 }
 
 .text-div {
     display: inline-block;
-    width: 800px;
+    /* width: 100%; */
     vertical-align: top;
-    margin-left: 100px;
-    font-family: 'Delius Swash Caps', cursive;
-    font-size: 30px;
+    font-family: 'Farsan', cursive;
+    font-size: 35px;
+    margin-bottom: 0;
+}
+
+.first-p {
+    width: 60%;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 3%;
+}
+
+.p-element {
+    margin: 0;
 }
 
 .sip-pic {
-    width: 150px;
-    display: inline-block;
+    width: 250px;
+    float: right;
+    margin: 8px 0 0 8px;
+}
+
+.second-p {
+    font-family: 'Farsan', cursive;
+    font-size: 35px;
+    margin-top: 0;
 }
