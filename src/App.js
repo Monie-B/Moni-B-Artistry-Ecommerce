@@ -2,7 +2,6 @@ import './App.css';
 import { Route, Routes } from 'react-router-dom';
 import Home from './pages/Home';
 import AboutMe from './pages/AboutMe';
-import Categories from './pages/Categories';
 import Contact from './pages/Contact';
 import SipAndPaint from './pages/SipAndPaint';
 import Originals from './pages/Originals';
@@ -18,7 +17,6 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/aboutme" element={<AboutMe />} />
-          <Route path="/categories" element={<Categories />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/sipandpaint" element={<SipAndPaint />} />
           <Route path="/originals" element={<Originals />} />

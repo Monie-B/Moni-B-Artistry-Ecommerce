@@ -15,7 +15,9 @@ const Contact = () => {
         <section>
            <form action='#email'>
             <textarea type='text' placeholder='How can I help you?' name='email' required></textarea>
-            <button>Submit Form</button>
+            <button>
+              Submit Form
+            </button>
            </form>
         </section>
     </>

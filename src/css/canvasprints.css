@@ -1,0 +1,53 @@
+.ranges {
+    width: 22%;
+    height: 100%;
+    display: inline-block;
+    background-color: grey;
+}
+
+.canvas-products {
+    width: 78%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.canvas-products > div {
+    width: 220px;
+    height: 320px;
+    background-color: white;
+    display: inline-block;
+    margin: 20px;
+    vertical-align: top;
+}
+
+.humanNature {
+    width: 100%;
+}
+
+.gimmeButterflies {
+    width: 100%;
+}
+
+.melaninUniverse {
+    width: 100%;
+}
+
+.daisy {
+    width: 100%;
+}
+
+.freeSpirit {
+    width: 100%;
+}
+
+.pureBeauty {
+    width: 100%;
+}
+
+.youWooMe {
+    width: 100%;
+}
+
+.motherland {
+    width: 100%;
+}
