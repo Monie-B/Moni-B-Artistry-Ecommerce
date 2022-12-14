@@ -10,9 +10,9 @@ const CanvasPrints = () => {
       <Header />
       <NavBar />
         <div>
-          <div className='ranges'>
+          {/* <div className='ranges'>
             First Div
-          </div>
+          </div> */}
           <div className='canvas-products'>
             {/* Second Div */}
             <div>

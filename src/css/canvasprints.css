@@ -1,8 +1,10 @@
 .ranges {
-    width: 22%;
+    width: 20%;
     height: 451px;
     display: inline-block;
-    background-color: grey;
+    border-style: dotted;
+    border-width: 10px;
+    border-color: #c592ca;
 }
 
 .canvas-products {

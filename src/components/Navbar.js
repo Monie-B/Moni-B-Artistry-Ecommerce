@@ -23,11 +23,12 @@ export default function NavBar (props) {
             </div>
         </div> 
         <a href="/Contact">Contact</a>
-        <div>
+        <a href="/Cart">Cart</a>
+        {/* <div>
             <a href='#cart'>
                 <img src='cart.png' className='cart' alt='shopping cart icon'/>
             </a>
-        </div>
+        </div> */}
         </div>
     )
 }
