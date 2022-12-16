@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Atma&family=Dancing+Script&family=Kalam:wght@300;400&family=Rancho&family=Satisfy&family=Zeyada&display=swap');
+
+.s-title {
+    font-family: 'Atma', cursive;
+    font-size: 50px;
+    margin: 9px;
+}
+
+.sectionOne {
+    display: inline-block;
+    width: 45%;
+    height: 300px;
+    /* background-color: rgba(255, 0, 119, 0.274); */
+    background-image: linear-gradient(rgba(158, 67, 158, 0.671), rgba(255, 192, 203, 0.596));
+    font-size: 25px;
+    border-radius: 200px;
+    /* border-style: dotted;
+    border-color: white;
+    border-width: 40px; */
+}
+
+.art {
+    width: 300px;
+}
+
+.art1 {
+    display: inline-block;
+    width: 45%;
+    vertical-align: top;
+}
