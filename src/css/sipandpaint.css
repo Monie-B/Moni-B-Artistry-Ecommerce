@@ -20,11 +20,39 @@
 }
 
 .art {
-    width: 300px;
+    width: 100%;
+    border-radius: 150px;
 }
 
 .art1 {
     display: inline-block;
     width: 45%;
     vertical-align: top;
+}
+
+.containerTwo {
+    margin-top: 3%;
+}
+
+.art2 {
+    display: inline-block;
+    width: 45%;
+    vertical-align: top;
+}
+
+.artpictwo {
+    display: inline-block;
+    width: 100%;
+    border-radius: 125px;
+    /* vertical-align: top; */
+}
+
+.textContainer {
+    display: inline-block;
+    width: 45%;
+    height: 300px;
+    /* background-color: rgba(255, 0, 119, 0.274); */
+    background-image: linear-gradient(rgba(158, 67, 158, 0.671), rgba(241, 103, 184, 0.596), rgba(255, 192, 203, 0.596), white);
+    font-size: 25px;
+    border-radius: 200px;
 }
