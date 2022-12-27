@@ -13,12 +13,16 @@ const Contact = () => {
           Got a Question? Contact Me!
         </section>
         <section>
-           <form action='#email' method='post'>
-            <textarea type='text' placeholder='How can I help you?' name='email' required></textarea>
-            <button>
-              Submit Form
-            </button>
-           </form>
+        <form action="mailto:someone@example.com" method="post" enctype="text/plain">
+          Name:<br/>
+          <input type="text" name="name"/><br/>
+          E-mail:<br/>
+          <input type="text" name="mail"/><br/>
+          Comment:<br/>
+          <textarea type="text" name="comment" size="50"></textarea><br/><br/>
+          <input type="submit" value="Send"/>
+          <input type="reset" value="Reset"/>
+        </form>
         </section>
     </>
   )
