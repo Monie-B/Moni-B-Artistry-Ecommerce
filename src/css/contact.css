@@ -5,3 +5,37 @@
     font-family: 'Atma', cursive;
     font-size: 50px;
 }
+
+.nameInput {
+    width: 300px;
+    font-size: large;
+}
+
+.nameInput:focus {
+    box-shadow: 0 0 30px #09b1cf;
+}
+
+.emailInput {
+    width: 400px;
+    font-size: large;
+}
+
+.emailInput:focus {
+    box-shadow: 0 0 30px #09b1cf;
+}
+
+.messageInput {
+    width: 575px;
+    height: 300px;
+    resize: none;
+    font-size: x-large;
+}
+
+.messageInput:focus {
+    box-shadow: 0 0 30px #09b1cf;
+}
+
+.formText {
+    font-size: xx-large;
+    font-family: 'Farsan', cursive;
+}
