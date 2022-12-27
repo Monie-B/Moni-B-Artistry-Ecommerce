@@ -13,7 +13,7 @@ const Contact = () => {
           Got a Question? Contact Me!
         </section>
         <section>
-           <form action='#email'>
+           <form action='#email' method='post'>
             <textarea type='text' placeholder='How can I help you?' name='email' required></textarea>
             <button>
               Submit Form
