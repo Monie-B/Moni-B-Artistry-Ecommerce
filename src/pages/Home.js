@@ -2,6 +2,7 @@ import React from 'react';
 import '../css/home.css';
 import Header from '../components/Header';
 import NavBar from '../components/Navbar';
+import Footer from '../components/Footer';
 
 
 const Home = () => {
@@ -20,6 +21,7 @@ const Home = () => {
                 <img src='PianoDate.jpg' alt='artwork of a man playing the piano and a robed woman sitting on top of the piano' className='pianoDate'></img>
                 <img src='GreenIvy.jpg' alt='artwork of a woman sideview with green leaves in her braided hair' className='greenIvy'></img>
             </div>
+        <Footer />
     </>
   )
 }

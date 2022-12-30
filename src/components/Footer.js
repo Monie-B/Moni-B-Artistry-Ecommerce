@@ -4,8 +4,31 @@ import '../css/footer.css'
 const Footer = () => {
   return (
     <>
-        <div>
-            <p className='footer'>This is the footer</p>
+        <div className='footer'>
+            <div className='blockOne'>
+                <p className='blkOneTxt'>
+                    SITE<hr/>
+                    About Monica<br/>
+                    Sip & Paint<br/>
+                    Shop<br/>
+                    Contact
+                </p>
+            </div>
+            <div className='blockTwo'>
+                <p>
+                    Website Created by Monica 2022
+                </p>
+            </div>
+            <div className='blockThree'>
+                <p>
+                    <a href='https://www.instagram.com/moni.b.artistry/' target='_blank' rel='noreferrer'>
+                        <img src='instagram.png' alt='instagram logo' className='IG' />
+                    </a>
+                    <a href='https://www.facebook.com/monibartistry' target='_blank' rel='noreferrer'>
+                        <img src='facebook.png' alt='facebook logo' className='FB' />
+                    </a>
+                </p>
+            </div>
         </div>
     </>
   )

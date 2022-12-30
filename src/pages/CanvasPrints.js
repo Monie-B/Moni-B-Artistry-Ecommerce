@@ -2,6 +2,7 @@ import React from 'react';
 import '../css/canvasprints.css';
 import Header from '../components/Header';
 import NavBar from '../components/Navbar';
+import Footer from '../components/Footer';
 
 
 const CanvasPrints = () => {
@@ -113,6 +114,7 @@ const CanvasPrints = () => {
             </div>
           </div>
         </div>
+        <Footer />
     </>
   )
 }

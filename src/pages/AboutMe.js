@@ -2,6 +2,7 @@ import React from 'react';
 import '../css/aboutme.css';
 import Header from '../components/Header';
 import NavBar from '../components/Navbar';
+import Footer from '../components/Footer';
 
 
 const AboutMe = () => {
@@ -33,6 +34,7 @@ const AboutMe = () => {
              Monica's long-standing passion of being artistic and creative began as a child. But never really knowing how being an artist could make a suitable living, she pursued her creativity in other ways. As she got older, she conjoined her creativity and love of tasty goods in soap making. Her handmade natural soaps resembled pastries good enough to eat! Check out @bath_crafts on Instagram to see her previous work! Now Monica is back in the business of arts by selling her original artwork, canvas prints, photo prints, and instruction for paint parties.
           </p>
        </div>
+       <Footer />
     </>
   )
 }

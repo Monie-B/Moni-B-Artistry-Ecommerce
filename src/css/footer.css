@@ -1,5 +1,35 @@
 .footer {
     background-color: lightgreen;
-    height: 40px;
+    height: 150px;
     margin: 40px 0 0 0;
+}
+
+.blockOne {
+    display: inline-block;
+    width: 20%;
+}
+
+.blkOneTxt {
+    color: grey;
+    font-size: 13px;
+}
+
+.blockTwo {
+    display: inline-block;
+    width: 60%;
+}
+
+.blockThree {
+    display: inline-block;
+    width: 20%;
+}
+
+.IG {
+    width: 30px;
+}
+
+.FB {
+    width: 30px;
+    border-radius: 7px;
+    margin-left: 5px;
 }
