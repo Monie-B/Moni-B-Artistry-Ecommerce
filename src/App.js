@@ -8,6 +8,7 @@ import Originals from './pages/Originals';
 import CanvasPrints from './pages/CanvasPrints';
 import PosterPrints from './pages/PosterPrints';
 import PhotoPrints from './pages/PhotoPrints';
+import Cart from './pages/Cart';
 
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
           <Route path="/canvasprints" element={<CanvasPrints />} />
           <Route path="/posterprints" element={<PosterPrints />} />
           <Route path="/photoprints" element={<PhotoPrints />} />
+          <Route path="/cart" element={<Cart />} />
         </Routes>
       </div>
     </>

@@ -15,12 +15,13 @@ const Footer = () => {
                 </p>
             </div>
             <div className='blockTwo'>
-                <p>
+                <p className='blkTwoTxt'>
                     Website Created by Monica 2022
                 </p>
             </div>
             <div className='blockThree'>
                 <p>
+                    Follow Moni B. Artistry!<hr/>
                     <a href='https://www.instagram.com/moni.b.artistry/' target='_blank' rel='noreferrer'>
                         <img src='instagram.png' alt='instagram logo' className='IG' />
                     </a>

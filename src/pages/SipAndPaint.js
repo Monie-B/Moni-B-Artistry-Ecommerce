@@ -2,6 +2,7 @@ import React from 'react';
 import '../css/sipandpaint.css';
 import Header from '../components/Header';
 import NavBar from '../components/Navbar';
+import Footer from '../components/Footer';
 
 
 const SipAndPaint = () => {
@@ -40,6 +41,7 @@ const SipAndPaint = () => {
             </p>
         </div>
       </div>
+      <Footer />
     </>
   )
 }
