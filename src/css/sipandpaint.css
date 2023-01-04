@@ -8,11 +8,13 @@
 
 .sectionOne {
     display: inline-block;
-    width: 50%;
+    width: 45%;
     /* height: 300px; */
     background-image: linear-gradient(rgba(158, 67, 158, 0.671), rgba(255, 192, 203, 0.596));
     font-size: 25px;
     border-radius: 200px;
+    margin: 100px 40px;
+    box-shadow: 0 0 90px #a141aa;
 }
 
 .art {
@@ -47,7 +49,10 @@
     display: inline-block;
     width: 45%;
     /* height: 300px; */
-    background-image: linear-gradient(rgba(158, 67, 158, 0.671), rgba(241, 103, 184, 0.596), rgba(255, 192, 203, 0.596), white);
+    /* background-image: linear-gradient(rgba(116, 50, 116, 0.568), rgba(241, 103, 184, 0.596), rgba(255, 192, 203, 0.596), white); */
     font-size: 25px;
     border-radius: 200px;
+    margin: 70px 0 0 40px;
+    background-color: #a141aa77;
+    box-shadow: 0 5px 90px #a141aa;
 }
